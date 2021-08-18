@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <form method="POST" enctype="multipart/form-data">
+            <fieldset style="background-color: thistle;">
+                <legend><h2>MCQ Form</h2></legend>
+                <label for="name">Name*</label><br>
+                <input type="text" name="Firstname" id="name" placeholder="FirstName" required>
+                <input type="text" name="Lastname" id="name" placeholder="LastName" required><br><br>
+                <label for="Regno">Register Number*</label><br>
+                <input type="text" name="Regno" id="Regno" placeholder="RegNo" required><br><br>
+                <label for="course">Course</label><br>
+                <select name="course" id="course">
+                    <option value="Select Course--" selected disabled>Select Course--</option>
+                    <option value="B.E">B.E</option>
+                    <option value="B.Tech">B.Tech</option>
+                </select><br><br>
+                <label for="branch">Branch*</label><br>
+                <select name="branch" id="branch">
+                    <option value="Select Branch--" selected disabled>Select Branch--</option>
+                    <option value="IT">IT</option>
+                    <option value="CSE">CSE</option>
+                    <option value="ECE">ECE</option>
+                    <option value="Mech">Mech</option>
+                    <option value="EEE">EEE</option>
+                </select><br><br>
+                <label for="time"> Time and Date of Test Tacking </label><br>
+                <input type="datetime-local" name="datetime" id="time" required><br><br>
+                <h3>Questions</h3>
+                1.What does HTML stands for?<br>
+                <input type="radio" name="1" value="a" >Hyperlink and Text Maekup language <br>
+                <input type="radio" name="1" value="b">Home Tool Markup language <br>
+                <input type="radio" name="1" value="c">Hyper Text Markup language <br><br>
+                2.Who is making the Web Standards? <br>
+                <input type="radio" name="2" value="a">Google <br>
+                <input type="radio" name="2" value="b">The W3C <br>
+                <input type="radio" name="2" value="c">Microsoft <br><br>
+                3.Choose the correct HTML elements for the largest heading. <br>
+                <input type="radio" name="3" value="a">h6 <br>
+                <input type="radio" name="3" value="b">h1 <br>
+                <input type="radio" name="3" value="c">head <br><br>
+                4.What is a correct HTML element for inserting a line break? <br>
+                <input type="radio" name="4" value="a">break <br>
+                <input type="radio" name="4" value="b">br <br>
+                <input type="radio" name="4" value="c">lb <br><br>
+                5.Choose the correct HTML element to define emphasized text <br>
+                <input type="radio" name="5" value="a">em <br>
+                <input type="radio" name="5" value="b">italic <br>
+                <input type="radio" name="5" value="c">i <br><br>
+                <input type="reset" value="Reset" style="background-color: teal;">
+                <input type="submit" value="End Test" style="background-color: teal;">
+            </fieldset>
+        </form>
+        </form>
+    </body>
+</html>

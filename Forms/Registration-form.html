@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <form method="POST" enctype="multipart/form-data">
+            <fieldset style="background-color: lightsalmon;">
+                <legend><h2>Registration Form</h2></legend>
+                <h3>Registration form for student ID card</h3>
+                <label for="name">Name*</label><br>
+                <input type="text" name="FirstName" id="name" placeholder="FirstName" required><br><br>
+                <label for="RegNo">Register Number*</label><br>
+                <input type="text" name="RegNo" id="RegNo" maxlength="10" placeholder="RegNo*" required><br><br>
+                <label for="dob">Date Of Birth*</label><br>
+                <input type="date" name="dob" id="dob" required><br><br>
+                Gender* <br>
+                <input type="radio" name="Gender" id="female" value="Female">
+                <label for="female">Female</label><br>
+                <input type="radio" name="Gender" id="male" value="Male">
+                <label for="male">Male</label><br>
+                <input type="radio" name="Gender" id="other" value="Other">Other <br><br>
+                <label for="course">Course</label><br>
+                <select name="course" id="course">
+                    <option value="Select Course--" selected disabled>Select Course--</option>
+                    <option value="B.E">B.E</option>
+                    <option value="B.Tech">B.Tech</option>
+                </select><br><br>
+                <label for="branch">Branch*</label><br>
+                <select name="branch" id="branch">
+                    <option value="Select Branch--" selected disabled>Select Branch--</option>
+                    <option value="IT">IT</option>
+                    <option value="CSE">CSE</option>
+                    <option value="ECE">ECE</option>
+                    <option value="Mech">Mech</option>
+                    <option value="EEE">EEE</option>
+                </select><br><br>
+                <label for="bloodgroup">Blood Group*</label><br>
+                <select name="BG" id="bloodgroup">
+                    <option value="Select Blood Group--" selected disabled>Select Blood Group--</option>
+                    <option value="AB+ve">AB+ve</option>
+                    <option value="AB-ve">AB-ve</option>
+                    <option value="O+ve">O+ve</option>
+                    <option value="O-ve">O-ve</option>
+                    <option value="A+ve">A+ve</option>
+                    <option value="B+ve">B+ve</option>
+                    <option value="A-ve">A-ve</option>
+                    <option value="B-ve">B-ve</option>
+                </select><br><br>
+                <label for="img">Upload Your Photo*</label><br>
+                <input type="file" name="img" id="img" accept="image/*"><br><br>
+                <label for="cnumber">Contact Number*</label><br>
+                <input type="text" name="number" id="number" required><br><br>
+                <input type="reset" value="Clear" style="background-color: lightslategray;">
+                <input type="submit" value="Submit" style="background-color: lightslategray;">
+            </fieldset>
+        </form>
+    </body>
+</html>
