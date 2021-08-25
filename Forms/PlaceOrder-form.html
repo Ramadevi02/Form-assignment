@@ -2,26 +2,30 @@
 <html>
     <head></head>
     <body>
-        <form method="POST" enctype="multipart/form-data">
-            <fieldset style="background-color:violet">
-                <legend><h2>Placing Order</h2></legend>
-                <label for="name">Username</label><br>
-                <input type="text" name="name" id="name" placeholder="username" required><br><br>
-                <label for="email">Email</label><br>
-                <input type="email" name="email" id="email" placeholder="email" required><br><br>
-                <label for="Quantity">Quantity</label><br>
-                <input type="number" id="Quantity" name="quantity" min="1"><br><br>
-                <label for="address">Address</label><br>
-                <input type="text" id="address" name="Landmark" placeholder="Landmark*" required><br>
-                <input type="text" id="address" name="Street" placeholder="Street*" required><br>
-                <input type="text" id="address" name="Area" placeholder="Area*" required><br>
-                <input type="text" id="address" name="city" placeholder="City*" required><br>
-                <input type="text" id="address" name="pincode" placeholder="Pincode*" required><br>
-                <input type="text" id="address" name="district" placeholder="District*" required><br><br>
-                <p>After submiting details it redirect you the payment page</p>
-                <input type="reset" value="Clear" style="background-color: teal;">
-                <button type="submit" style="background-color: teal;" ><a href="Payment-form.html" target="_blank">Submit</a></button>
-            </fieldset>
-        </form>
+        <table align="center">
+            <tr><td>
+                <form method="POST" enctype="multipart/form-data">
+                    <fieldset style="background-color:violet">
+                        <legend><h2>Placing Order</h2></legend>
+                        <label for="name">Username</label><br>
+                        <input type="text" name="name" id="name" placeholder="username" required><br><br>
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" id="email" placeholder="email" required><br><br>
+                        <label for="Quantity">Quantity</label><br>
+                        <input type="number" id="Quantity" name="quantity" min="1"><br><br>
+                        <label for="address">Address</label><br>
+                        <input type="text" id="address" name="Landmark" placeholder="Landmark*" required><br>
+                        <input type="text" id="address" name="Street" placeholder="Street*" required><br>
+                        <input type="text" id="address" name="Area" placeholder="Area*" required><br>
+                        <input type="text" id="address" name="city" placeholder="City*" required><br>
+                        <input type="text" id="address" name="pincode" placeholder="Pincode*" required><br>
+                        <input type="text" id="address" name="district" placeholder="District*" required><br><br>
+                        <p>After submiting details it redirect you the payment page</p>
+                        <input type="reset" value="Clear" style="background-color: teal;">
+                        <button type="submit" style="background-color: teal;" ><a href="Payment-form.html" target="_blank">Submit</a></button>
+                    </fieldset>
+                </form>
+            </td></tr>
+        </table>
     </body>
 </html>

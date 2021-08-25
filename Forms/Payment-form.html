@@ -2,26 +2,30 @@
 <html>
     <head></head>
     <body>
-        <form method="POST" enctype="multipart/form-data">
-            <fieldset>
-                <legend><h2>Payment Form</h2></legend>
-                <label for="name">Card Holder Name</label><br>
-                <input type="text" name="name" id="name" placeholder="Enter full name*" required><br><br>
-                <label for="Paytype">Select Payment type</label><br>
-                <select id="Paytype" name="payment" required>
-                    <option value="Debit card">Debit card</option>
-                    <option value="Credit Card">Credit card</option>
-                    <option value="Net Banking">Net Banking</option>
-                    <option value="UPI">UPI</option>
-                </select><br><br>
-                <label for="Exp">Card Expiry date</label><br>
-                <input type="month" name="Exp" id="Exp" required><br><br>
-                <label for="cvv">CVV</label><br>
-                <input type="text" name="cvv" id="cvv" placeholder="cvv*" required><br><br>
-                <label for="amount">Enter Amount</label><br>
-                <input type="number" name="amount" id="amount" placeholder="Rs." required><br><br>
-                <input type="submit" value="Proceed payment" style="background-color: teal;">
-            </fieldset>
-        </form>
+        <table align="center" width=30%>
+            <tr><td>
+                <form method="POST" enctype="multipart/form-data">
+                    <fieldset style="background-color: rgb(203, 13, 228);">
+                        <legend><h2>Payment Form</h2></legend>
+                        <label for="name">Card Holder Name</label><br>
+                        <input type="text" name="name" id="name" placeholder="Enter full name*" required><br><br>
+                        <label for="Paytype">Select Payment type</label><br>
+                        <select id="Paytype" name="payment" required>
+                            <option value="Debit card">Debit card</option>
+                            <option value="Credit Card">Credit card</option>
+                            <option value="Net Banking">Net Banking</option>
+                            <option value="UPI">UPI</option>
+                        </select><br><br>
+                        <label for="Exp">Card Expiry date</label><br>
+                        <input type="month" name="Exp" id="Exp" required><br><br>
+                        <label for="cvv">CVV</label><br>
+                        <input type="text" name="cvv" id="cvv" placeholder="cvv*" required><br><br>
+                        <label for="amount">Enter Amount</label><br>
+                        <input type="number" name="amount" id="amount" placeholder="Rs." required><br><br>
+                        <input type="submit" value="Proceed payment" style="background-color: teal;">
+                    </fieldset>
+                </form>
+            </td></tr>
+        </table>
     </body>
 </html>

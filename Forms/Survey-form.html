@@ -2,34 +2,39 @@
 <html>
     <head></head>
     <body>
-        <form method="POST" enctype="multipart/form-data">
-            <fieldset>
-                <legend><h2>Survey Form</h2></legend>
-                <h3>survey for which phone brand are mostly used by people</h3>
-                <lable for="name">Full Name</lable><br>
-                <input type="text" placeholder="name" name="Full Name" id="name" required><br><br>
-                <label for="number">Mobile Number</label><br>
-                <input type="text" placeholder="number" name="Mobile Number" id="number" required><br><br>
-                <label for=country>country</label><br>
-                <select id="country" name="country">
-                    <option value="India">India</option>
-                    <option value="South Korea">South Korea</option>
-                    <option value="Japan">Japan</option>
-                    <option value="China">China</option>
-                    <option value="Taiwan">Taiwan</option>
-                    <option value="Hong Kong">Hong Kong</option>
-                </select><br><br>
-                <label for="phone">Select Brand Name of your phone</label><br>
-                <select id="phone" name="phone">
-                    <option value="Apple">Apple</option>
-                    <option value="Lenovo">Lenovo</option>
-                    <option value="mi">mi</option>
-                    <option value="Samsung">Samsung</option>
-                    <option value="Realme">Realme</option>
-                    <option value="Oppo">Oppo</option>
-                </select><br><br>
-                <input type="submit" value="Submit" style="background-color: teal;">
-            </fieldset>    
-        </form>
+        <table align="center">
+            <tr><td>
+                <form method="POST" enctype="multipart/form-data">
+                    <fieldset style="background-color: lightgreen;">
+                        <legend><h2>Survey Form</h2></legend>
+                        <h3>survey for which phone brand are mostly used by people</h3>
+                        <lable for="name">Full Name</lable><br>
+                        <input type="text" placeholder="name" name="Full Name" id="name" required><br><br>
+                        <label for="number">Mobile Number</label><br>
+                        <input type="text" placeholder="number" name="Mobile Number" id="number" required><br><br>
+                        <label for=country>country</label><br>
+                        <select id="country" name="country">
+                            <option value="India">India</option>
+                            <option value="South Korea">South Korea</option>
+                            <option value="Japan">Japan</option>
+                            <option value="China">China</option>
+                            <option value="Taiwan">Taiwan</option>
+                            <option value="Hong Kong">Hong Kong</option>
+                        </select><br><br>
+                        <label for="phone">Select Brand Name of your phone</label><br>
+                        <select id="phone" name="phone">
+                            <option value="Select--" selected disabled>Select--</option>
+                            <option value="Apple">Apple</option>
+                            <option value="Lenovo">Lenovo</option>
+                            <option value="mi">mi</option>
+                            <option value="Samsung">Samsung</option>
+                            <option value="Realme">Realme</option>
+                            <option value="Oppo">Oppo</option>
+                        </select><br><br>
+                        <input type="submit" value="Submit" style="background-color: rgb(128, 0, 43);">
+                    </fieldset>    
+                </form>
+            </td></tr>
+        </table>
     </body>
 </html>

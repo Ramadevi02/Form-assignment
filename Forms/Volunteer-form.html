@@ -2,29 +2,33 @@
 <html>
     <head></head>
     <body>
-        <form method="POST" enctype="multipart/form-data" >
-            <fieldset style="background-color: violet;">
-                <legend><h2>Volunteer Form</h2></legend>
-                <label for="name">Enter your Full Name*</label><br>
-                <input type="text" name="FirstName" id="name" placeholder="FirstName" required><br><br>
-                <label for="number">Contact Numberbr</label><br>
-                <input type="text" name="number" id="number"><br><br>
-                <label for="district">District*</label><br>
-                <input type="text" name="district" id="district"><br><br>
-                <label for="work">Where do you want work?</label><br>
-                <select name="work" id="work">
-                    <option value="Select" selected disabled>Select--</option>
-                    <option value="School">School</option>
-                    <option value="Temple">Temple</option>
-                    <option value="School">School</option>
-                    <option value="Orphanage">Orphanage</option>
-                </select><br><br>
-                Do you prepare working on : <br>
-                <input type="checkbox" value="Weekdays">Weekdays<br>
-                <input type="checkbox" value="Weekend">Weekend <br>
-                <input type="checkbox" value="Both">Both <br><br>
-                <input type="submit" value="Submit" style="background-color:tomato;">
-            </fieldset>
-        </form>
+        <table align="center">
+            <tr><td>
+                <form method="POST" enctype="multipart/form-data" >
+                    <fieldset style="background-color: violet;">
+                        <legend><h2>Volunteer Form</h2></legend>
+                        <label for="name">Enter your Full Name*</label><br>
+                        <input type="text" name="FirstName" id="name" placeholder="FirstName" required><br><br>
+                        <label for="number">Contact Number</label><br>
+                        <input type="text" name="number" id="number" placeholder="+91"><br><br>
+                        <label for="district">District*</label><br>
+                        <input type="text" name="district" id="district"><br><br>
+                        <label for="work">Where do you want work?</label><br>
+                        <select name="work" id="work">
+                            <option value="Select" selected disabled>Select--</option>
+                            <option value="School">School</option>
+                            <option value="Temple">Temple</option>
+                            <option value="School">School</option>
+                            <option value="Orphanage">Orphanage</option>
+                        </select><br><br>
+                        Do you prepare working on : <br>
+                        <input type="checkbox" name="days" value="Weekdays">Weekdays<br>
+                        <input type="checkbox" name="days" value="Weekend">Weekend <br>
+                        <input type="checkbox" name="days" value="Both">Both <br><br>
+                        <input type="submit" value="Submit" style="background-color:tomato;">
+                    </fieldset>
+                </form>
+            </td></tr>
+        </table>
     </body>
 </html>
